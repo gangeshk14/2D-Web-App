@@ -14,11 +14,19 @@ A user-friendly website for farmers to get predictions on crop yields based on f
 
 ## To run:
 ### Create Virtual Environment 
+#### For Mac OS
 ```shell
 pip install virtualenv
-virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
+virtualenv 2D
+source 2D/bin/activate
+pip install numpy flask pandas
+```
+#### For Windows
+```dos
+pip install virtualenv
+python -m virtualenv 2D
+2D\Scripts\Activate
+pip install numpy flask pandas
 ```
 ### To start Flask Web App
 ```shell
