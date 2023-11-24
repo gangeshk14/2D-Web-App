@@ -13,11 +13,12 @@
 A user-friendly website for farmers to get predictions on crop yields based on factors such as Soil conditions(Nitrogen, Phosphorous, Potassium), Rainfall, Temperature, Season(Based on Date) and Location. This model assumes the farmers have easy access to technology that brings them the above information easily. Created using Flask backend and HTML/JavaScript/CSS frontend with Jinja templating
 
 ## To run:
+- Note: Website does not run on Vocareum. Please download and run locally.
 ### Create Virtual Environment 
 #### For Mac OS
 ```shell
 pip install virtualenv
-virtualenv 2D
+python -m virtualenv 2D
 source 2D/bin/activate
 pip install numpy flask pandas
 ```
@@ -70,5 +71,7 @@ import numpy as np
 import pandas as pd
 import json
 ```
+#### Javascript/CSS Libraries used
+Apexcharts was used to plot the bar graph. Wow and Animate were used for loading animation. Most styles used bootstrap. Remix Icons was used for icons.
 <br/>
 
